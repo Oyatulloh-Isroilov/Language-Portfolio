@@ -1,0 +1,102 @@
+.components {
+  background: #fff;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+}
+
+.Menu {
+  display: block;
+}
+
+.Hero {
+  display: flex;
+  padding: 30px;
+}
+
+.HeroImg {
+  width: 490px;
+  height: 576px;
+}
+.links {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.infoBar h1 {
+  font-weight: 700;
+  font-size: 80px;
+}
+
+.infoBar p {
+  font-weight: 500;
+  font-size: 29px;
+  color: #6b6868;
+}
+
+.Buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.hireBtn {
+  transition: all 0.7s ease;
+  color: #000;
+  background: #fff;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.hireBtn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.projectBtn {
+  transition: all 0.7s ease;
+  color: #fff;
+  background: #000;
+  padding: 10px 30px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.projectBtn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.HeroC {
+  background: #fff;
+  color: #000;
+}
+
+.toggle-button {
+  width: 150px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dark-mode {
+  background: #111;
+  color: #fff;
+}
